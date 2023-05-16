@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="images/narsuyu.ico" />
+        <Title>Narsuyu Band</Title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="style.css">
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="nav main-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">Narsuyu Band</h1>
+            <div class="container">
+                <button id="latestAlbumButton" class="btn btn-header" type="button">Get Our Latest Album</button>
+            </div>
+            <button id="playButton" class="btn btn-header btn-play" type="button">&#9658;</button>
+            <audio id="audioPlayer" src="narsong.mp3"></audio>
+        </header>
+        <section class="content-section container">
+            <h2 class="section-header">TOURS</h2>
+            <div>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">JUL 16</span>
+                    <span class="tour-item tour-city">BOLU</span>
+                    <span class="tour-item tour-arena">ATATURK ORMAN PARKI</span>
+                    <button class="btn tour-item tour-btn btn-primary" type="button" onclick="showPopup()">BUY TICKETS</button>
+                </div>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">JUL 22</span>
+                    <span class="tour-item tour-city">LONDON</span>
+                    <span class="tour-item tour-arena">EMIRATES STATIUM</span>
+                    <button class="btn tour-item tour-btn btn-primary" type="button" onclick="showPopup()">BUY TICKETS</button>
+                </div>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">JUL 22</span>
+                    <span class="tour-item tour-city">ANKARA</span>
+                    <span class="tour-item tour-arena">CARNAVALE PASTANELERI HARBIYE</span>
+                    <button class="btn tour-item tour-btn btn-primary" type="button" onclick="showPopup()">BUY TICKETS</button>
+                </div>
+            </div>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+            <h3 class="band-name">Narsuyu Band</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.facebook.com">
+                    <img src="images/icon_facebook.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/narsyumm/">
+                    <img src="images/icon_instagram.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=9LpNRAJPrUs&ab_channel=KalanM%C3%BCzik">
+                    <img src="images/icon_youtube.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </footer>
+    </body>
+</html>
